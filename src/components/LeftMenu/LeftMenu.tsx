@@ -25,10 +25,14 @@ const LeftMenu: React.FC = () => {
                 id="collapseMenu">
 
                 <a className="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                    <div className="sidebar-brand-icon icon-green rotate-n-15">
-                        <i className="fas fa-bolt"></i>
+                    <div style={{padding: '10px', backgroundColor: 'white', color: 'black'}}>
+                        
+                        {/* <img src="https://www.eindiawholesale.com/media/logo/stores/1/elogo.png" alt='logo' style={{height: '92', width: '272'}} /> */}
+                    <div className="sidebar-brand-text mx-3">E India <sup>Mart</sup></div>
                     </div>
-                    <div className="sidebar-brand-text mx-3">REACT <sup>Admin</sup></div>
+                    {/* <div className="sidebar-brand-icon icon-green rotate-n-15"> */}
+                        {/* <i className="fas fa-bolt"></i> */}
+                    {/* </div> */}
                 </a>
 
                 <hr className="sidebar-divider my-0" />
